@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+    background: rgb(35,148,52);
+    background: radial-gradient(circle, rgba(35,148,52,1) 0%, rgba(62,195,80,1) 42%, rgba(125,204,133,1) 100%);
+}
+
+body .formulario {
+    background-color: #e8e8e8;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    border-radius: 50px;
+    border-color: #ffff solid 1px;
+    padding: 20px;
+    background-image: url("../img/whatsapp2.png");
+    background-size: 500px;
+    background-position: bottom -150px right 50px;   
+    background-repeat: no-repeat no-repeat;
+    backdrop-filter: blur(10px);
+}
+
+body .formulario form .input-group {
+    padding: 10px;
+}
+
+body .formulario form .input-group .label {
+    display: block;
+    color: #040f0f;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+body .formulario form .input-group .input {
+    border: none;
+    width: 300px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgb(209, 209, 209);
+    backdrop-filter: blur(5px);
+    transition: all 10s;
+    border: 0.5px solid transparent;
+    transition: border-color .5s cubic-bezier(.25,.01,.25,1) 0s, color .5s cubic-bezier(.25,.01,.25,1) 0s,background .5s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+body .formulario form .input-group .input:hover {
+    border-color: #03045e;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+body .formulario form .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+body .formulario form .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+body .formulario form .btn .button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    border: 0px;
+    font-size: medium;
+    width: 80%;
+    padding: 5px;
+    text-shadow: 0 0.0625em 0 #fff;
+    box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef,
+    0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede,
+    0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #cacaca, 0 0.425em 0.5em 0 #7dcc85;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+body .formulario form .btn .button:hover {
+    box-shadow: inset 0 0.0625em 0 0 #dbdbdb, 0 0.0625em 0 0 #dbdbdb,
+    0 0.125em 0 0 #dbdbdb, 0 0.25em 0 0 #dbdbdb, 0 0.3125em 0 0 #dbdbdb,
+    0 0.375em 0 0 #dbdbdb, 0 0.425em 0 0 #dbdbdb, 0 0.425em 0.5em 0 #7dcc85;
+}
+
+body .formulario form .btn .button:active {
+    translate: 0 0.225em;
+    box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
+      0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
+      0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #239434;
+}
+
+body .formulario form .btn-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+body .formulario form .btn-1 .button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    border: 0px;
+    font-size: medium;
+    width: 48%;
+    padding: 5px;
+    text-shadow: 0 0.0625em 0 #fff;
+    box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef,
+    0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede,
+    0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #cacaca, 0 0.425em 0.5em 0 #7dcc85;
+    transition: 0.15s ease;
+    cursor: pointer;
+}
+
+body .formulario form .btn-1 .button:hover {
+    box-shadow: inset 0 0.0625em 0 0 #dbdbdb, 0 0.0625em 0 0 #dbdbdb,
+    0 0.125em 0 0 #dbdbdb, 0 0.25em 0 0 #dbdbdb, 0 0.3125em 0 0 #dbdbdb,
+    0 0.375em 0 0 #dbdbdb, 0 0.425em 0 0 #dbdbdb, 0 0.425em 0.5em 0 #7dcc85;
+}
+
+body .formulario form .btn-1 .button:active {
+    translate: 0 0.225em;
+    box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
+      0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
+      0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #239434;
+}
